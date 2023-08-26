@@ -1,0 +1,319 @@
+html{
+    height: 100vh;
+
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+    background: rgb(142,155,163);
+    background: linear-gradient(184deg, rgba(142,155,163,1) 0%, rgba(137,200,240,1) 50%, rgba(70,137,179,1) 100%);
+	font-weight: 400;
+}
+h2{
+	color: #787878;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 18px;
+	margin-bottom: 7px;
+}
+h3{
+	color: #787878;
+	letter-spacing: 0.1em;
+	font-size: 16px;
+	margin-bottom: 7px;
+}
+header{
+	margin-top: 121px;
+}
+header p{
+	color: #787878;
+	text-transform: lowercase;
+	letter-spacing: 0;
+	font-size: 13px;
+	margin-bottom: 0;
+	line-height: 140%;
+}
+.main-menu {
+	margin-left: -5px;
+	margin-top: 38px;
+}
+.main-menu li{
+	line-height: normal;
+}
+.main-menu li a{
+	font-size: 65px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 100%;
+}
+.main-menu li a:hover{
+	text-decoration: none;
+	color: #58FAAC;
+} 
+.more-des p{
+	font-family: 'Lato', sans-serif;
+	color: #ddd;
+	max-width: 600px;
+	font-size: 15px;
+	line-height: 140%;
+	margin-bottom: 24px;
+	-webkit-font-smoothing: antialiased;
+}
+.more-des{
+	margin-top: 40px;
+}
+.more-des a{
+	color: #ddd;
+	text-decoration: underline;	
+}
+.more-des a:hover{
+	color: #58FAAC;
+}
+
+.papers-container header{
+	margin-top: 55px;
+}
+
+.papers-container header h2,.papers-container header p{font-weight: normal;}
+
+.papers-content-header{margin-top: 39px; margin-bottom: 36px;}
+
+.papers-content-header a{
+	color: #ddd;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.papers-content-header a:hover{
+	text-decoration: none;
+	color: #58FAAC;
+} 
+
+.papers-content-left .papertitle a{
+	font-weight: bold;
+	font-size: 12px;
+	color: #ddd;
+	line-height: normal;
+
+}
+
+.papertitle{
+	line-height: normal;
+	font-size: 12px;
+	color: #999;
+	font-weight:normal;
+	line-height: normal;
+}
+
+.divider {
+    margin-left: 3px;
+    margin-right: 3px;
+    color: #999;
+}
+
+.papers-content-left .bywho,.papers-content-left .wherepublished,.bestpaper {
+    color: #999;
+	font-size: 12px;
+	color: #ddd;
+	font-weight:normal;
+	line-height: normal;
+}
+
+.papers-content-left .press{
+	font-size: 12px;
+	color: #999;
+	font-weight:normal;
+	line-height: normal;
+}
+
+.papers-content-left .press a{
+	color: #999;
+}
+
+.papers-content-left .press a:hover{
+	text-decoration: none;
+	color: #58FAAC;
+}
+
+.papers-content-left .caps {
+    letter-spacing: .1em;
+}
+
+.papers-content-left a:hover{
+	text-decoration: none;
+	color: #58FAAC;
+} 
+
+.papers-content-right{
+	color: #999;
+	margin-bottom: 25px;
+	font-size: 12px;
+	line-height: 140%;
+	font-weight: normal;
+}
+
+.papers-content-right i{font-weight: normal;}
+
+
+.papers-content-right,.papers-content-left{height:80px; line-height: 140%;}
+
+.bestpaper {
+    color: #999;
+}
+
+.papers-content-list{padding-bottom: 40px;}
+
+
+/* Responsive Media Queries  */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	.container{
+		max-width: 98%;
+	}	
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.container {
+	    max-width: 89%;
+	}
+	.papers-container{
+		max-width: 950px;
+		margin: 0 auto;
+	}
+}
+/* Extra large devices (Extra large desktops, 1366px and up) */
+@media (min-width: 1366px) {}
+/* Extra large devices (Extra large desktops, 1440px and up) */
+@media (min-width: 1440px) {}
+/* Extra large devices (Extra large desktops, 1600px and up) */
+@media (min-width: 1600px) {}
+/* Extra large devices (Extra large desktops, 1680 and up) */
+@media (min-width: 1680px) {}
+/* Extra large devices (Extra large desktops, 1920 and up) */
+@media (min-width: 1920px) {}
+
+
+
+					/* Max Width With Start Point */
+/* Extra large devices (Extra large desktops, 1920 and Down) */
+@media (max-width: 1919.98px) {}
+
+/* Extra large devices (Extra large desktops, 1680 and Down) */
+@media (max-width: 1679.98px) {}
+
+/* Extra large devices (Extra large desktops, 1600px and Down) */
+@media (max-width: 1599.98px) {}
+
+/* Extra large devices (Extra large desktops, 1440px and Down) */
+@media (max-width: 1439.98px) {}
+
+/* Extra large devices (Extra large desktops, 1366px and Down) */
+@media (max-width: 1365.98px) {}
+
+/* Extra large devices (large desktops, 1200px and Down) */
+@media (max-width: 1199.98px) {
+	header {
+    	margin-top: 50px;
+	}
+	.papers-container{
+		max-width: 90%;
+		margin: 0 auto;
+	}
+	.papers-content-right,.papers-content-left{height:100px;}
+}
+
+/* Large devices (desktops, 992px and Down) */
+@media (max-width: 991.98px) {
+	.main-menu li a{font-size: 55px;}
+	.papers-content-right,.papers-content-left{height:auto;}
+	.papers-container{
+		max-width: 95%;
+		margin: 0 auto;
+	}
+	.papers-content-right{margin-top: 15px; margin-bottom: 40px;}
+}
+
+/* Medium devices (tablets, 768px and Down) */
+@media (max-width: 767.98px) {
+	.main-menu li a{font-size: 36px;}
+	.main-menu{
+		margin-top: 25px;
+		margin-bottom: 30px;
+	}
+	header {
+	   margin-top: 30px;
+	}
+	.papers-container{
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+/* Small devices (landscape phones, 576px and Down) */
+@media (max-width: 575.98px) {}
+
+
+					/* Max Width */
+/* Extra large devices (Extra large desktops, 1920 and down) */
+@media (max-width: 1920px) {}
+
+/* Extra large devices (Extra large desktops, 1680 and down) */
+@media (max-width: 1680px) {}
+
+/* Extra large devices (Extra large desktops, 1600px and down) */
+@media (max-width: 1600px) {}
+
+/* Extra large devices (Extra large desktops, 1440px and down) */
+@media (max-width: 1440px) {}
+
+/* Extra large devices (Extra large desktops, 1366px and down) */
+@media (max-width: 1366px) {}
+
+/* Extra large devices (large desktops, 1280px and down) */
+@media (max-width: 1280px) {}
+
+/* Extra large devices (large desktops, 1200px and down) */
+@media (max-width: 1200px) {}
+
+/* Large devices (desktops, 992px and down) */
+@media (max-width: 992px) {}
+
+/* Medium devices (tablets, 800px and down) */
+@media (max-width: 800px) {}
+
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {}
+
+/* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {}
+
+/* Small devices (landscape phones, 480px and down) */
+@media (max-width: 480px) {
+	.papers-content-left .bywho, .papers-content-left .wherepublished, .bestpaper{font-size: 10px;}
+	.divider{margin-right: 1px; margin-left: 1px;}
+}
+
+/* Small devices (landscape phones, 414px and down) */
+@media (max-width: 414px) {}
+
+/* Small devices (landscape phones, 384px and down) */
+@media (max-width: 384px) {}
+
+/* Small devices (landscape phones, 360px and down) */
+@media (max-width: 360px) {}
+
+/* Small devices (landscape phones, 360px and down) */
+@media (max-width: 320px) {}
+
+
+						/* Orientation Portrait */
+@media only screen and (max-width: 800px) and (orientation: portrait) {
+} 
