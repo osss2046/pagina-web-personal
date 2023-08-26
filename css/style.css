@@ -12,13 +12,13 @@ h2{
 	color: #787878;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-	font-size: 18px;
+	font-size: 25px;
 	margin-bottom: 7px;
 }
 h3{
 	color: #787878;
 	letter-spacing: 0.1em;
-	font-size: 16px;
+	font-size: 22px;
 	margin-bottom: 7px;
 }
 header{
@@ -48,13 +48,13 @@ header p{
 }
 .main-menu li a:hover{
 	text-decoration: none;
-	color: #58FAAC;
+	color: #626B70;
 } 
 .more-des p{
 	font-family: 'Lato', sans-serif;
 	color: #ddd;
 	max-width: 600px;
-	font-size: 15px;
+	font-size: 20px;
 	line-height: 140%;
 	margin-bottom: 24px;
 	-webkit-font-smoothing: antialiased;
@@ -67,7 +67,7 @@ header p{
 	text-decoration: underline;	
 }
 .more-des a:hover{
-	color: #58FAAC;
+	color: #626B70;
 }
 
 .papers-container header{
