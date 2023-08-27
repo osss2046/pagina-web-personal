@@ -21,6 +21,12 @@ h3{
 	font-size: 22px;
 	margin-bottom: 7px;
 }
+h4{
+    color: #787878;
+	letter-spacing: 0.1em;
+	font-size: 13px;
+	margin-bottom: 5px;
+}
 header{
 	margin-top: 121px;
 }
