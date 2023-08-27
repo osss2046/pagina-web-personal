@@ -1,5 +1,5 @@
 html{
-    height: 100vh;
+    height: 240vh;
 
 }
 body{
@@ -68,6 +68,15 @@ header p{
 }
 .more-des a:hover{
 	color: #626B70;
+}
+
+.espacio{
+    height: 10vh;
+}
+.caja{
+    height: 30vh;
+    margin: 10%;
+    background-color: #3D85B3;
 }
 
 .papers-container header{
