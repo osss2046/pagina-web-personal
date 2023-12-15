@@ -1,12 +1,23 @@
-html{
-    height: 270vh;
-
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Asegura que el html y body ocupen al menos toda la altura de la ventana del navegador */
 }
-body{
-	font-family: 'Montserrat', sans-serif;
+
+body {
+    font-family: 'Montserrat', sans-serif;
     background: rgb(142,155,163);
     background: linear-gradient(184deg, rgba(142,155,163,1) 0%, rgba(137,200,240,1) 50%, rgba(70,137,179,1) 100%);
-	font-weight: 400;
+    font-weight: 400;
+    background-repeat: no-repeat; /* Evita que el fondo se repita */
+    background-attachment: fixed; /* Mantiene el fondo fijo al hacer scroll */
+    background-size: cover; /* Asegura que el fondo cubra toda la página */
+}
+
+figure {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
 }
 h2{
 	color: #787878;
