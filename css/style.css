@@ -1,17 +1,38 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%; /* Asegura que el html y body ocupen al menos toda la altura de la ventana del navegador */
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	/* Asegura que el html y body ocupen al menos toda la altura de la ventana del navegador */
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background: rgb(142,155,163);
-    background: linear-gradient(184deg, rgba(142,155,163,1) 0%, rgba(137,200,240,1) 50%, rgba(70,137,179,1) 100%);
-    font-weight: 400;
-    background-repeat: no-repeat; /* Evita que el fondo se repita */
-    background-attachment: fixed; /* Mantiene el fondo fijo al hacer scroll */
-    background-size: cover; /* Asegura que el fondo cubra toda la página */
+	font-family: 'Montserrat', sans-serif;
+	background: rgb(142, 155, 163);
+	background: linear-gradient(184deg, rgba(142, 155, 163, 1) 0%, rgba(137, 200, 240, 1) 50%, rgba(70, 137, 179, 1) 100%);
+	font-weight: 400;
+	background-repeat: no-repeat;
+	/* Evita que el fondo se repita */
+	background-attachment: fixed;
+	/* Mantiene el fondo fijo al hacer scroll */
+	background-size: cover;
+	/* Asegura que el fondo cubra toda la página */
+}
+
+/* Estilo para centrar el video */
+.video-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	/* Ajusta la altura del contenedor al 100% de la altura de la ventana del navegador */
+}
+
+video {
+	width: 70%;
+	/* Ajusta el ancho del video al 70% de su tamaño original */
+	height: auto;
+	/* Ajusta la altura automáticamente para mantener la proporción */
 }
 
 figure {
@@ -19,29 +40,34 @@ figure {
 	text-align: center;
 	margin: 0 auto;
 }
-h2{
+
+h2 {
 	color: #787878;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	font-size: 24px;
 	margin-bottom: 7px;
 }
-h3{
+
+h3 {
 	color: #787878;
 	letter-spacing: 0.1em;
 	font-size: 22px;
 	margin-bottom: 7px;
 }
-h4{
-    color: #787878;
+
+h4 {
+	color: #787878;
 	letter-spacing: 0.1em;
 	font-size: 13px;
 	margin-bottom: 5px;
 }
-header{
+
+header {
 	margin-top: 121px;
 }
-header p{
+
+header p {
 	color: #787878;
 	text-transform: lowercase;
 	letter-spacing: 0;
@@ -49,7 +75,8 @@ header p{
 	margin-bottom: 0;
 	line-height: 140%;
 }
-section p{
+
+section p {
 	font-size: 16px;
 	line-height: 160%;
 }
@@ -58,21 +85,25 @@ section p{
 	margin-left: -5px;
 	margin-top: 38px;
 }
-.main-menu li{
+
+.main-menu li {
 	line-height: normal;
 }
-.main-menu li a{
+
+.main-menu li a {
 	font-size: 65px;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: bold;
 	line-height: 100%;
 }
-.main-menu li a:hover{
+
+.main-menu li a:hover {
 	text-decoration: none;
 	color: #626B70;
-} 
-.more-des p{
+}
+
+.more-des p {
 	font-family: 'Lato', sans-serif;
 	color: #ddd;
 	max-width: 600px;
@@ -81,46 +112,56 @@ section p{
 	margin-bottom: 24px;
 	-webkit-font-smoothing: antialiased;
 }
-.more-des{
+
+.more-des {
 	margin-top: 40px;
 }
-.more-des a{
+
+.more-des a {
 	color: #ddd;
-	text-decoration: underline;	
+	text-decoration: underline;
 }
-.more-des a:hover{
+
+.more-des a:hover {
 	color: #626B70;
 }
 
-.espacio{
-    height: 10vh;
-}
-.caja{
-    height: 30vh;
-    margin: 10%;
-    background-color: #3D85B3;
+.espacio {
+	height: 10vh;
 }
 
-.papers-container header{
+.caja {
+	height: 30vh;
+	margin: 10%;
+	background-color: #3D85B3;
+}
+
+.papers-container header {
 	margin-top: 55px;
 }
 
-.papers-container header h2,.papers-container header p{font-weight: normal;}
+.papers-container header h2,
+.papers-container header p {
+	font-weight: normal;
+}
 
-.papers-content-header{margin-top: 39px; margin-bottom: 36px;}
+.papers-content-header {
+	margin-top: 39px;
+	margin-bottom: 36px;
+}
 
-.papers-content-header a{
+.papers-content-header a {
 	color: #ddd;
 	font-size: 12px;
 	font-weight: normal;
 }
 
-.papers-content-header a:hover{
+.papers-content-header a:hover {
 	text-decoration: none;
 	color: #58FAAC;
-} 
+}
 
-.papers-content-left .papertitle a{
+.papers-content-left .papertitle a {
 	font-weight: bold;
 	font-size: 12px;
 	color: #ddd;
@@ -128,54 +169,56 @@ section p{
 
 }
 
-.papertitle{
+.papertitle {
 	line-height: normal;
 	font-size: 12px;
 	color: #999;
-	font-weight:normal;
+	font-weight: normal;
 	line-height: normal;
 }
 
 .divider {
-    margin-left: 3px;
-    margin-right: 3px;
-    color: #999;
+	margin-left: 3px;
+	margin-right: 3px;
+	color: #999;
 }
 
-.papers-content-left .bywho,.papers-content-left .wherepublished,.bestpaper {
-    color: #999;
+.papers-content-left .bywho,
+.papers-content-left .wherepublished,
+.bestpaper {
+	color: #999;
 	font-size: 12px;
 	color: #ddd;
-	font-weight:normal;
+	font-weight: normal;
 	line-height: normal;
 }
 
-.papers-content-left .press{
+.papers-content-left .press {
 	font-size: 12px;
 	color: #999;
-	font-weight:normal;
+	font-weight: normal;
 	line-height: normal;
 }
 
-.papers-content-left .press a{
+.papers-content-left .press a {
 	color: #999;
 }
 
-.papers-content-left .press a:hover{
+.papers-content-left .press a:hover {
 	text-decoration: none;
 	color: #58FAAC;
 }
 
 .papers-content-left .caps {
-    letter-spacing: .1em;
+	letter-spacing: .1em;
 }
 
-.papers-content-left a:hover{
+.papers-content-left a:hover {
 	text-decoration: none;
 	color: #58FAAC;
-} 
+}
 
-.papers-content-right{
+.papers-content-right {
 	color: #999;
 	margin-bottom: 25px;
 	font-size: 12px;
@@ -183,54 +226,71 @@ section p{
 	font-weight: normal;
 }
 
-.papers-content-right i{font-weight: normal;}
-
-
-.papers-content-right,.papers-content-left{height:80px; line-height: 140%;}
-
-.bestpaper {
-    color: #999;
+.papers-content-right i {
+	font-weight: normal;
 }
 
-.papers-content-list{padding-bottom: 40px;}
+
+.papers-content-right,
+.papers-content-left {
+	height: 80px;
+	line-height: 140%;
+}
+
+.bestpaper {
+	color: #999;
+}
+
+.papers-content-list {
+	padding-bottom: 40px;
+}
 
 
 /* Responsive Media Queries  */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-	.container{
+	.container {
 		max-width: 98%;
-	}	
+	}
 }
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {}
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {}
+
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 	.container {
-	    max-width: 89%;
+		max-width: 89%;
 	}
-	.papers-container{
+
+	.papers-container {
 		max-width: 950px;
 		margin: 0 auto;
 	}
 }
+
 /* Extra large devices (Extra large desktops, 1366px and up) */
 @media (min-width: 1366px) {}
+
 /* Extra large devices (Extra large desktops, 1440px and up) */
 @media (min-width: 1440px) {}
+
 /* Extra large devices (Extra large desktops, 1600px and up) */
 @media (min-width: 1600px) {}
+
 /* Extra large devices (Extra large desktops, 1680 and up) */
 @media (min-width: 1680px) {}
+
 /* Extra large devices (Extra large desktops, 1920 and up) */
 @media (min-width: 1920px) {}
 
 
 
-					/* Max Width With Start Point */
+/* Max Width With Start Point */
 /* Extra large devices (Extra large desktops, 1920 and Down) */
 @media (max-width: 1919.98px) {}
 
@@ -249,37 +309,58 @@ section p{
 /* Extra large devices (large desktops, 1200px and Down) */
 @media (max-width: 1199.98px) {
 	header {
-    	margin-top: 50px;
+		margin-top: 50px;
 	}
-	.papers-container{
+
+	.papers-container {
 		max-width: 90%;
 		margin: 0 auto;
 	}
-	.papers-content-right,.papers-content-left{height:100px;}
+
+	.papers-content-right,
+	.papers-content-left {
+		height: 100px;
+	}
 }
 
 /* Large devices (desktops, 992px and Down) */
 @media (max-width: 991.98px) {
-	.main-menu li a{font-size: 55px;}
-	.papers-content-right,.papers-content-left{height:auto;}
-	.papers-container{
+	.main-menu li a {
+		font-size: 55px;
+	}
+
+	.papers-content-right,
+	.papers-content-left {
+		height: auto;
+	}
+
+	.papers-container {
 		max-width: 95%;
 		margin: 0 auto;
 	}
-	.papers-content-right{margin-top: 15px; margin-bottom: 40px;}
+
+	.papers-content-right {
+		margin-top: 15px;
+		margin-bottom: 40px;
+	}
 }
 
 /* Medium devices (tablets, 768px and Down) */
 @media (max-width: 767.98px) {
-	.main-menu li a{font-size: 36px;}
-	.main-menu{
+	.main-menu li a {
+		font-size: 36px;
+	}
+
+	.main-menu {
 		margin-top: 25px;
 		margin-bottom: 30px;
 	}
+
 	header {
-	   margin-top: 30px;
+		margin-top: 30px;
 	}
-	.papers-container{
+
+	.papers-container {
 		width: 100%;
 		padding-right: 15px;
 		padding-left: 15px;
@@ -292,7 +373,7 @@ section p{
 @media (max-width: 575.98px) {}
 
 
-					/* Max Width */
+/* Max Width */
 /* Extra large devices (Extra large desktops, 1920 and down) */
 @media (max-width: 1920px) {}
 
@@ -328,8 +409,17 @@ section p{
 
 /* Small devices (landscape phones, 480px and down) */
 @media (max-width: 480px) {
-	.papers-content-left .bywho, .papers-content-left .wherepublished, .bestpaper{font-size: 10px;}
-	.divider{margin-right: 1px; margin-left: 1px;}
+
+	.papers-content-left .bywho,
+	.papers-content-left .wherepublished,
+	.bestpaper {
+		font-size: 10px;
+	}
+
+	.divider {
+		margin-right: 1px;
+		margin-left: 1px;
+	}
 }
 
 /* Small devices (landscape phones, 414px and down) */
@@ -345,6 +435,5 @@ section p{
 @media (max-width: 320px) {}
 
 
-						/* Orientation Portrait */
-@media only screen and (max-width: 800px) and (orientation: portrait) {
-} 
+/* Orientation Portrait */
+@media only screen and (max-width: 800px) and (orientation: portrait) {}
